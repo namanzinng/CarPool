@@ -1,0 +1,44 @@
+/* ReviewContainer.css */
+.review-container {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.review-container h2 {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* ReviewCard.css */
+.review-card {
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all 0.5s ease; /* back to normal */
+}
+
+.review-card:hover {
+  color: white;
+  background: black;
+  /* transition: all .5s ease; */
+  transition: all 0.4s ease; /* zoom in */
+}
+
+.rating {
+  color: #ffcc00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

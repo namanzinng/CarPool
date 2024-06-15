@@ -1,0 +1,14 @@
+.footer {
+    /* background-color: #34495e; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    color: black;
+    margin-top: 14px;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }

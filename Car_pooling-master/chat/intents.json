@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "facing issue in login?",
+        "why i am unable to login?",
+        "unable to login",
+        "trying to login in but failed",
+        "issue in login"
+      ],
+      "responses": [
+        "try to login using google",
+        "restart the app and try again"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "locations",
+      "patterns": [
+        "locations",
+        "in which location carbuddy is available?",
+        "which cities do you operate?",
+        "in india which are the cities in which we operate"
+      ],
+      "responses": [
+        "we operate accross multiple cities in india",
+        "you can visit services page to find the location"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "failed transaction need refund?",
+        "ride canceled needed refund",
+        "facing issue in refund",
+        "time to get the refund"
+      ],
+      "responses": [
+        "refund is provided within 3-4 working days",
+        "talk to our customer support for help tel-002304"
+      ]
+    }
+  ]
+}
